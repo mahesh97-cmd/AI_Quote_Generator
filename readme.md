@@ -1,3 +1,5 @@
+**Live Demo:** [AI Quote Generator](https://ai-quote-generator-orpin.vercel.app/)
+
 # 🧠 AI Quote Generator
 
 A full-stack AI-powered quote generator built with the MERN stack and Google Gemini 2.0 Flash API. Generate motivational quotes at the click of a button!
