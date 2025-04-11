@@ -8,7 +8,7 @@ function App() {
   const fetchQuote = async () => {
     setLoading(true);
     try {
-      const res = await axios.get("http://localhost:7000/api/quote");
+      const res = await axios.get(`${import.meta.env.VITE_BACKEND_URL}/api/quote`);
       setQuote(res.data.quote);
     } catch (err) {
       setQuote("Failed to fetch quote 😓");
